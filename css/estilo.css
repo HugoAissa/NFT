@@ -1,0 +1,119 @@
+
+
+@font-face {
+    font-family: out;
+    src: url(../font/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body{
+    background-color:hsl(217, 54%, 11%) ;
+}
+
+
+
+#box1{
+    margin: 200px auto;
+
+    width: 580px;
+    height: 950px;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 25px 15px 25px rgba(0, 0, 0, 0.36);
+    
+}
+
+.texto{
+    font-size: 30px;   
+    font-family: out;
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    margin-left: 40px;
+
+
+
+}
+#um{
+
+    margin-top: 50px;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+.eth{
+  color:hsl(178, 100%, 50%);
+  font-size: 19px;
+  font-weight: 600;
+  font-family: out;
+  margin-left: 40px;
+
+  
+}
+
+
+.days{
+    margin-right: 55px;
+    margin-top: -25px;
+    text-align: right;
+    color:hsl(215, 51%, 70%);
+    font-size: 20px;
+    font-weight: 300;
+    font-family: out;
+  
+
+}
+
+#tres, #dois{
+    margin-right:10px;
+}
+
+#titulo{
+    font-family: out;
+    font-size: 35px;
+    margin-left: 40px;
+    
+    font-weight: 400;
+    color:  hsl(0, 0%, 100%);
+    -webkit-text-stroke: 1px hsl(0, 0%, 100%);
+     titulo: 1px hsl(0, 0%, 100%);
+     letter-spacing: 2.0px;
+
+}
+
+#founder{
+    width: 480px;
+    margin: 0px auto;
+    height: auto;
+    box-shadow: 0.5px 1px 0.5px 0px hsla(215, 52%, 70%, 0.34);
+
+}
+
+#criador{
+    float: left;
+    margin: 10px;
+    font-family:  out;
+    font-size:25px;
+    color:hsl(215, 51%, 70%);
+    margin-top: 50px;
+
+
+}
+#quatro{
+    margin-left: 45px;
+    margin-top: 45px;
+    float: left;
+
+
+
+}
+
+#jules{
+    margin-left: 2px;
+    float: right;
+
+    color:hsl(0, 0%, 100%);
+    font-family:out;
+    font-size: 25px;
+}
