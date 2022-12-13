@@ -1,17 +1,15 @@
-
-
 @font-face {
     font-family: out;
     src: url(../font/Outfit/Outfit-VariableFont_wght.ttf);
 }
 
-body{
-    background-color:hsl(217, 54%, 11%) ;
+body {
+    background-color: hsl(217, 54%, 11%);
 }
 
 
 
-#box1{
+#box1 {
     margin: 200px auto;
 
     width: 580px;
@@ -19,11 +17,11 @@ body{
     border-radius: 20px;
     background-color: hsl(216, 50%, 16%);
     box-shadow: 25px 15px 25px rgba(0, 0, 0, 0.36);
-    
+
 }
 
-.texto{
-    font-size: 30px;   
+.texto {
+    font-size: 30px;
     font-family: out;
     color: hsl(215, 51%, 70%);
     text-align: left;
@@ -32,57 +30,61 @@ body{
 
 
 }
-#um{
+
+#um {
 
     margin-top: 50px;
     width: 500px;
     height: auto;
     border-radius: 20px;
+
+
 }
 
 
 
-.eth{
-  color:hsl(178, 100%, 50%);
-  font-size: 19px;
-  font-weight: 600;
-  font-family: out;
-  margin-left: 40px;
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-size: 19px;
+    font-weight: 600;
+    font-family: out;
+    margin-left: 40px;
 
-  
+
 }
 
 
-.days{
+.days {
     margin-right: 55px;
     margin-top: -25px;
     text-align: right;
-    color:hsl(215, 51%, 70%);
+    color: hsl(215, 51%, 70%);
     font-size: 20px;
     font-weight: 300;
     font-family: out;
-  
+
 
 }
 
-#tres, #dois{
-    margin-right:10px;
+#tres,
+#dois {
+    margin-right: 10px;
 }
 
-#titulo{
+#titulo {
     font-family: out;
     font-size: 35px;
     margin-left: 40px;
-    
+
     font-weight: 400;
-    color:  hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
     -webkit-text-stroke: 1px hsl(0, 0%, 100%);
-     titulo: 1px hsl(0, 0%, 100%);
-     letter-spacing: 2.0px;
+    titulo: 1px hsl(0, 0%, 100%);
+    letter-spacing: 2.0px;
 
 }
 
-#founder{
+#founder {
     width: 480px;
     margin: 0px auto;
     height: auto;
@@ -90,17 +92,18 @@ body{
 
 }
 
-#criador{
+#criador {
     float: left;
     margin: 10px;
-    font-family:  out;
-    font-size:25px;
-    color:hsl(215, 51%, 70%);
+    font-family: out;
+    font-size: 25px;
+    color: hsl(215, 51%, 70%);
     margin-top: 50px;
 
 
 }
-#quatro{
+
+#quatro {
     margin-left: 45px;
     margin-top: 45px;
     float: left;
@@ -109,11 +112,36 @@ body{
 
 }
 
-#jules{
+#jules {
     margin-left: 2px;
     float: right;
 
-    color:hsl(0, 0%, 100%);
-    font-family:out;
+    color: hsl(0, 0%, 100%);
+    font-family: out;
     font-size: 25px;
 }
+
+#titulo:hover {
+    -webkit-text-stroke: 1px hsl(178, 100%, 50%);
+    titulo: 1px hsl(178, 100%, 50%);
+
+    color: hsl(178, 100%, 50%);
+    transition: 0.5s;
+
+    opacity: 100%;
+
+}
+
+#jules:hover{
+    -webkit-text-stroke: 0.1px hsl(178, 100%, 50%);
+    titulo: 0.1px hsl(178, 100%, 50%);
+
+    color: hsl(178, 100%, 50%);
+    transition: 0.5s;
+
+    opacity: 100%;
+
+}
+
+
+
