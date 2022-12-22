@@ -10,9 +10,10 @@ body {
 
 
 #box1 {
-    margin: 3% auto;
-    max-width: 580px;
-    max-height: 950px;
+    max-width: 1440px;
+    max-height: 1000px;
+
+    margin: 2px auto;
     width: 580px;
     height: 950px;
     border-radius: 20px;
@@ -22,6 +23,7 @@ body {
 }
 
 .texto {
+    
     font-size: 30px;
     font-family: out;
     color: hsl(215, 51%, 70%);
